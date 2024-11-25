@@ -1,0 +1,345 @@
+{
+    "asset": {
+        "generator": "Noesis",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Roundcube_noesis_meshnode_0000",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "skin": 0
+        },
+        {
+            "name": "Roundcube",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.707106769084930419921875,
+                0.0,
+                0.0,
+                0.707106769084930419921875
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4,
+                        "COLOR_0": 5,
+                        "JOINTS_0": 6,
+                        "WEIGHTS_0": 7
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ],
+            "name": "Roundcube"
+        }
+    ],
+    "skins": [
+        {
+            "inverseBindMatrices": 8,
+            "joints": [
+                1
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            },
+            "name": "RandomMaterial.009"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 3600,
+            "max": [
+                725
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 726,
+            "max": [
+                100.0,
+                100.0,
+                100.0
+            ],
+            "min": [
+                -100.0,
+                -100.0,
+                -100.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 726,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 726,
+            "max": [
+                1.0,
+                0.707106649875640869140625,
+                1.0,
+                -1.0
+            ],
+            "min": [
+                -1.0,
+                -0.70710659027099609375,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 726,
+            "max": [
+                1.00000011920928955078125,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.27682816982269287109375
+            ],
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 726,
+            "max": [
+                0.999976098537445068359375,
+                0.999976098537445068359375,
+                0.999976098537445068359375,
+                1.0
+            ],
+            "min": [
+                0.0001291999942623078823089599609375,
+                0.0001291999942623078823089599609375,
+                0.0001291999942623078823089599609375,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 726,
+            "max": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 726,
+            "max": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1,
+            "max": [
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                -0.00999999977648258209228515625,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                -0.00999999977648258209228515625,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "MAT4"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7200,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7200,
+            "byteLength": 8712,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15912,
+            "byteLength": 8712,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 24624,
+            "byteLength": 11616,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 36240,
+            "byteLength": 5808,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 42048,
+            "byteLength": 11616,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 53664,
+            "byteLength": 5808,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 59472,
+            "byteLength": 11616,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 71088,
+            "byteLength": 64
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 71152,
+            "uri": "Roundcube0.bin"
+        }
+    ]
+}

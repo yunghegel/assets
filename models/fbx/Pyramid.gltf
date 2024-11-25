@@ -1,0 +1,345 @@
+{
+    "asset": {
+        "generator": "Noesis",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Pyramid_noesis_meshnode_0000",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "skin": 0
+        },
+        {
+            "name": "Pyramid",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.707106769084930419921875,
+                0.0,
+                0.0,
+                0.707106769084930419921875
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4,
+                        "COLOR_0": 5,
+                        "JOINTS_0": 6,
+                        "WEIGHTS_0": 7
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ],
+            "name": "Pyramid"
+        }
+    ],
+    "skins": [
+        {
+            "inverseBindMatrices": 8,
+            "joints": [
+                1
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            },
+            "name": "RandomMaterial.008"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 468,
+            "max": [
+                309
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310,
+            "max": [
+                70.71068572998046875,
+                49.999996185302734375,
+                70.71068572998046875
+            ],
+            "min": [
+                -70.7106781005859375,
+                -50.00000762939453125,
+                -70.7106781005859375
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310,
+            "max": [
+                1.0,
+                1.0,
+                0.000002655251819305703975260257720947265625,
+                -1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.0000040966760934679768979549407958984375,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310,
+            "max": [
+                0.978304207324981689453125,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310,
+            "max": [
+                0.835979521274566650390625,
+                0.835979521274566650390625,
+                0.88079547882080078125,
+                1.0
+            ],
+            "min": [
+                0.612542092800140380859375,
+                0.612542092800140380859375,
+                0.612542212009429931640625,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 310,
+            "max": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 310,
+            "max": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1,
+            "max": [
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                -0.00999999977648258209228515625,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.00999999977648258209228515625,
+                0.0,
+                0.0,
+                -0.00999999977648258209228515625,
+                -0.0000000004371138728753720670283655636012554168701171875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "MAT4"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 936,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 936,
+            "byteLength": 3720,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4656,
+            "byteLength": 3720,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 8376,
+            "byteLength": 4960,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13336,
+            "byteLength": 2480,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15816,
+            "byteLength": 4960,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 20776,
+            "byteLength": 2480,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 23256,
+            "byteLength": 4960,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 28216,
+            "byteLength": 64
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 28280,
+            "uri": "Pyramid0.bin"
+        }
+    ]
+}

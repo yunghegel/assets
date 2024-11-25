@@ -1,0 +1,13 @@
+# Blender 4.2.3 LTS MTL File: 'primitives.blend'
+# www.blender.org
+
+newmtl RandomPBRMaterial.131
+Ns 9.529934
+Ka 0.804001 0.804001 0.804001
+Kd 0.319506 0.688360 0.701805
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 ../textures/TwistedTorus_NormalMap.png

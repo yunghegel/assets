@@ -1,0 +1,13 @@
+# Blender 4.2.3 LTS MTL File: 'primitives.blend'
+# www.blender.org
+
+newmtl RandomPBRMaterial.124
+Ns 890.158813
+Ka 0.308194 0.308194 0.308194
+Kd 0.892090 0.961136 0.287687
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 ../textures/Sponge_NormalMap.png

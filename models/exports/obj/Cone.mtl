@@ -1,0 +1,13 @@
+# Blender 4.2.3 LTS MTL File: 'primitives.blend'
+# www.blender.org
+
+newmtl RandomPBRMaterial.114
+Ns 966.690430
+Ka 0.279594 0.279594 0.279594
+Kd 0.423433 0.574638 0.478685
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 ../textures/Cone_NormalMap.png

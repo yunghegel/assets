@@ -1,0 +1,13 @@
+# Blender 4.2.3 LTS MTL File: 'primitives.blend'
+# www.blender.org
+
+newmtl RandomPBRMaterial.126
+Ns 43.935898
+Ka 0.999151 0.999151 0.999151
+Kd 0.406683 0.684229 0.541264
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 ../textures/SuperToroid_NormalMap.png

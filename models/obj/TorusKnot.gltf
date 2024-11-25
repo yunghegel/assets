@@ -1,0 +1,215 @@
+{
+    "asset": {
+        "generator": "Noesis",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "mesh0_noesis_meshnode_0000",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ],
+            "name": "mesh0"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.800000011920928955078125,
+                    0.800000011920928955078125,
+                    0.800000011920928955078125,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "RandomMaterial.017"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "images": [
+        {
+            "uri": "TorusKnot0_tex00.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 15360,
+            "max": [
+                4013
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4014,
+            "max": [
+                2.54611492156982421875,
+                1.48477399349212646484375,
+                3.203054904937744140625
+            ],
+            "min": [
+                -3.4982559680938720703125,
+                -1.47935497760772705078125,
+                -3.2029559612274169921875
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4014,
+            "max": [
+                1.0,
+                0.996200025081634521484375,
+                0.999700009822845458984375
+            ],
+            "min": [
+                -1.0,
+                -0.9948999881744384765625,
+                -0.999800026416778564453125
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4014,
+            "max": [
+                0.98360526561737060546875,
+                0.99761664867401123046875,
+                0.918619632720947265625,
+                1.0
+            ],
+            "min": [
+                -0.9959065914154052734375,
+                -0.999244391918182373046875,
+                -0.981930673122406005859375,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4014,
+            "max": [
+                1.0,
+                0.996213018894195556640625
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 30720,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30720,
+            "byteLength": 48168,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 78888,
+            "byteLength": 48168,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 127056,
+            "byteLength": 64224,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 191280,
+            "byteLength": 32112,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 223392,
+            "uri": "TorusKnot0.bin"
+        }
+    ]
+}
